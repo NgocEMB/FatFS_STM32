@@ -1,0 +1,14 @@
+../Core/Src/main.c:110:6:HAL_UART_RxCpltCallback	16	static
+../Core/Src/main.c:137:6:clearCMDBuffer	8	static
+../Core/Src/main.c:141:6:clearWriteBuffer	8	static
+../Core/Src/main.c:145:6:clearReadBuffer	8	static
+../Core/Src/main.c:149:6:mount_sd	8	static
+../Core/Src/main.c:161:9:getPath	8	static
+../Core/Src/main.c:168:6:returnParentsDir	24	static
+../Core/Src/main.c:187:9:listFileDir	24	static
+../Core/Src/main.c:216:5:main	112	static
+../Core/Src/main.c:426:6:SystemClock_Config	88	static
+../Core/Src/main.c:472:13:MX_SDIO_SD_Init	4	static
+../Core/Src/main.c:500:13:MX_USART1_UART_Init	8	static
+../Core/Src/main.c:532:13:MX_GPIO_Init	56	static
+../Core/Src/main.c:651:6:Error_Handler	4	static,ignoring_inline_asm
