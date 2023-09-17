@@ -1,59 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2023-09-16T09:58:05.167Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="ujASvRF8XRQVapfMrVLN" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-17T12:56:09.500Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.81" etag="5URD4tYQY0NNVWSiUawC" version="21.7.5" type="github">
   <diagram name="Page-1" id="EVmTcV6VWXpZU2fVbqZk">
-    <mxGraphModel dx="880" dy="494" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="913" dy="477" grid="1" gridSize="1" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="mt6T5pbDlslJGRY3UUgP-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mt6T5pbDlslJGRY3UUgP-1" target="mt6T5pbDlslJGRY3UUgP-2" edge="1">
+        <mxCell id="978DszBRPPjvgT4yrK58-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;shape=flexArrow;" edge="1" parent="1" source="978DszBRPPjvgT4yrK58-2" target="978DszBRPPjvgT4yrK58-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mt6T5pbDlslJGRY3UUgP-1" value="&lt;b&gt;main.c&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="40" y="96" width="60" height="30" as="geometry" />
+        <mxCell id="978DszBRPPjvgT4yrK58-2" value="&lt;b&gt;User Application&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="316" y="73" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mt6T5pbDlslJGRY3UUgP-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mt6T5pbDlslJGRY3UUgP-2" target="mt6T5pbDlslJGRY3UUgP-4" edge="1">
+        <mxCell id="978DszBRPPjvgT4yrK58-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=classic;endFill=1;shape=flexArrow;" edge="1" parent="1" source="978DszBRPPjvgT4yrK58-3" target="978DszBRPPjvgT4yrK58-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mt6T5pbDlslJGRY3UUgP-2" value="&lt;b&gt;f_read&lt;br&gt;(ff.c)&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="180" y="96" width="60" height="30" as="geometry" />
+        <mxCell id="978DszBRPPjvgT4yrK58-3" value="&lt;b&gt;FatFS Middleware&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="316" y="213" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mt6T5pbDlslJGRY3UUgP-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mt6T5pbDlslJGRY3UUgP-4" target="mt6T5pbDlslJGRY3UUgP-7" edge="1">
+        <mxCell id="978DszBRPPjvgT4yrK58-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;shape=flexArrow;" edge="1" parent="1" source="978DszBRPPjvgT4yrK58-5" target="978DszBRPPjvgT4yrK58-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mt6T5pbDlslJGRY3UUgP-4" value="&lt;b&gt;disk_read&lt;br&gt;(diskio.c)&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="320" y="96" width="60" height="30" as="geometry" />
+        <mxCell id="978DszBRPPjvgT4yrK58-5" value="&lt;b&gt;Device Driver&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="316" y="369" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mt6T5pbDlslJGRY3UUgP-6" value="disk.drv[pdrv]-&gt;disk_read(disk.lun[pdrv], buff, sector, count);" style="text;whiteSpace=wrap;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="138" y="346" width="360" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="FT6oOviSD1CI77oodcBB-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mt6T5pbDlslJGRY3UUgP-7" target="FT6oOviSD1CI77oodcBB-1">
+        <mxCell id="978DszBRPPjvgT4yrK58-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;shape=flexArrow;" edge="1" parent="1" source="978DszBRPPjvgT4yrK58-7" target="978DszBRPPjvgT4yrK58-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mt6T5pbDlslJGRY3UUgP-7" value="&lt;b&gt;SD_read&lt;br&gt;(sd_diskio.c)&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="460" y="96" width="88" height="30" as="geometry" />
+        <mxCell id="978DszBRPPjvgT4yrK58-7" value="&lt;b&gt;STM32Cube HAL&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="316" y="534" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FT6oOviSD1CI77oodcBB-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FT6oOviSD1CI77oodcBB-1" target="FT6oOviSD1CI77oodcBB-4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="978DszBRPPjvgT4yrK58-9" value="&lt;b&gt;SD Card&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="316" y="686" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FT6oOviSD1CI77oodcBB-1" value="&lt;b&gt;BSP_SD_ReadBlocks&lt;/b&gt;&lt;br&gt;&lt;b&gt;(bsp_driver_sd.c)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="628" y="96" width="152" height="30" as="geometry" />
+        <mxCell id="978DszBRPPjvgT4yrK58-15" value="&lt;b&gt;Device Driver&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="316" y="369" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FT6oOviSD1CI77oodcBB-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FT6oOviSD1CI77oodcBB-4" target="FT6oOviSD1CI77oodcBB-6">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="978DszBRPPjvgT4yrK58-18" value="&lt;b&gt;f_read&lt;br&gt;(ff.c)&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="417" y="158" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FT6oOviSD1CI77oodcBB-4" value="&lt;b&gt;HAL_SD_ReadBlocks&lt;br&gt;(stm32f4xx_hal_sd.c)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="628" y="206" width="152" height="30" as="geometry" />
+        <mxCell id="978DszBRPPjvgT4yrK58-19" value="&lt;b&gt;disk_read&lt;br&gt;(diskio.c)&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="417" y="278" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FT6oOviSD1CI77oodcBB-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FT6oOviSD1CI77oodcBB-6" target="FT6oOviSD1CI77oodcBB-9">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="978DszBRPPjvgT4yrK58-20" value="&lt;b&gt;SD_read&lt;br&gt;(sd_diskio.c)&lt;br&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="403" y="334" width="88" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FT6oOviSD1CI77oodcBB-6" value="&lt;b&gt;SDIO_ReadFIFO&lt;br&gt;(stm32f4xx_ll_sdmmc.c)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="396" y="206" width="152" height="30" as="geometry" />
+        <mxCell id="978DszBRPPjvgT4yrK58-21" value="&lt;b&gt;BSP_SD_ReadBlocks&lt;/b&gt;&lt;br&gt;&lt;b&gt;(bsp_driver_sd.c)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="407" y="434" width="152" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FT6oOviSD1CI77oodcBB-8" value="hsd-&gt;Instance" style="text;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="538" y="271" width="99" height="28" as="geometry" />
+        <mxCell id="978DszBRPPjvgT4yrK58-22" value="&lt;b&gt;HAL_SD_ReadBlocks&lt;br&gt;(stm32f4xx_hal_sd.c)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="407" y="498" width="152" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FT6oOviSD1CI77oodcBB-9" value="&lt;b&gt;return (SDIOx-&amp;gt;FIFO)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="164" y="206" width="152" height="30" as="geometry" />
+        <mxCell id="978DszBRPPjvgT4yrK58-23" value="&lt;b&gt;SDIO_ReadFIFO&lt;br&gt;(stm32f4xx_ll_sdmmc.c)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="408" y="601" width="152" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="978DszBRPPjvgT4yrK58-24" value="&lt;b&gt;return (SDIOx-&amp;gt;FIFO)&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="404" y="655" width="152" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
